@@ -14,14 +14,15 @@ body{
 }
 .clock{
     width: 100%;
-    max-width: 25vw;
+    max-width: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 8px 8px 9px white;
     background-color: rgba(0,0,0,0.5);
-    min-height: 20vh;
+    min-height: 120px;
     border-radius: 6px;
+    flex-wrap:wrap;
 }
 .clock h1{
     font-size:4rem;
